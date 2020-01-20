@@ -4,7 +4,8 @@ import './App.css';
 
 class App extends React.Component {
     render() {
-        return ("");
+        return ("<input placeholder='YOUR NAME' id='name'><p id='p'>");
+        document.getElementById("p").innerHTML=document.getElementById("name").value
     }
 }
 
